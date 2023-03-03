@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Warp&display=swap');
+
+:root {
+    --primary-color: #717ec3;
+    --secondary-color: #ae8799;
+    --accent1-color: #2f243a;
+    --accent2-color: #037171;
+
+    --heading-font: 'Tilt Warp', 'sans serif';
+    --paragraph-font: 'Poppins', 'sans serif';
+
+    --nav-background-color: #717ec3;
+    --nav-link-color: #ae8799;
+    --nav-hover-link-color: #2f243a;
+    --nav-hover-background-color: #037171;  
+}
