@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Warp&display=swap');
+
+:root {
+    --primary-color: #717ec3;
+    --secondary-color: #ae8799;
+    --accent1-color: #2f243a;
+    --accent2-color: #037171;
+
+    --heading-font: 'Tilt Warp', 'sans serif';
+    --paragraph-font: 'Poppins', 'sans serif';
+
+    --nav-background-color: #717ec3;
+    --nav-link-color: #ae8799;
+    --nav-hover-link-color: #2f243a;
+    --nav-hover-background-color: #037171;  
+}
+
+body {
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+}
+
+p {
+    padding: 25px;
+    font-family: var(--paragraph-font);
+    color: var(--accent1-color);
+}
+
+nav {
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+/* Class Selector */
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    position: relative;
+    padding: 30px;   
+}
+
+.hero h1 {
+    position: absolute;
+    top: 32px;
+    left: 260px;
+    color: white;
+}
+
+.hero article {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+}
+
+.hero article p {
+    color: white;
+}
