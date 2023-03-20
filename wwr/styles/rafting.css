@@ -71,6 +71,11 @@ section {
     margin: 0 auto;
 }
 
+section h1 {
+    display: flex;
+    justify-content: center;
+}
+
 section h2 {
     display: flex;
     justify-content: center;
