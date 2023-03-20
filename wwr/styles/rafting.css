@@ -80,6 +80,36 @@ figure img {
     width: 120px;
 }
 
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid; 
+}
+
+label, input, button, textarea {
+    font-family: var(--paragraph-font);
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    cursor: pointer;
+}
+
+footer a {
+    text-decoration: none;
+}
 
 /* Class Selector */
 
@@ -125,4 +155,18 @@ figure img {
 
 .company-info p {
     padding: 0;
+}
+
+.company {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.employees {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;   
 }
