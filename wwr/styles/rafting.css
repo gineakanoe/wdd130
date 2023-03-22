@@ -212,3 +212,36 @@ table {
     border-bottom: 1px dotted black;
     font-size: 1.3rem;
 }
+
+.information {
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+
+.purpose {
+    display: flex;
+    justify-content: space-between;  
+    border-bottom: 1px dotted black; 
+    margin-top: 10px;
+}
+
+.purpose img {
+    width: 400px;
+}
+
+.hero2 {
+    position: relative;
+}
+
+.hero2 img {
+    position: relative;
+    padding: 12px;
+}
+
+.hero2 h1 {
+    position: absolute;
+    top: 32px;
+    left: 260px;
+    color: white;
+}
