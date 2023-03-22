@@ -198,11 +198,17 @@ table {
 .trips {
     display: flex;
     justify-content: space-between;  
-    border-bottom: 1px dotted black;  
+    border-bottom: 1px dotted black; 
+    margin-top: 25px; 
 }
 
 .trips img {
     width: 220px;
+}
+
+.trips p {
+    font-size: 14px;
+    padding: 10px;
 }
 
 .reservations {
