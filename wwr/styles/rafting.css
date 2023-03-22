@@ -116,6 +116,25 @@ footer a {
     text-decoration: none;
 }
 
+table, td {
+    border: 1px solid Black;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+th, td {
+    padding: 10px;
+}
+
+table {
+    margin: 0 auto; 
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    
+}
+
 /* Class Selector */
 
 .hero {
@@ -174,4 +193,20 @@ footer a {
     display: flex;
     justify-content: space-between; 
     align-items: center;   
+}
+
+.trips {
+    display: flex;
+    justify-content: space-between;  
+    border-bottom: 1px dotted black;  
+}
+
+.trips img {
+    width: 220px;
+}
+
+.reservations {
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px dotted black;
 }
