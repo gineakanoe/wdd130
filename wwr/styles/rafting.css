@@ -199,20 +199,16 @@ table {
     display: flex;
     justify-content: space-between;  
     border-bottom: 1px dotted black; 
-    margin-top: 25px; 
+    margin-top: 10px;
 }
 
 .trips img {
     width: 220px;
 }
 
-.trips p {
-    font-size: 14px;
-    padding: 10px;
-}
-
 .reservations {
     display: flex;
     justify-content: center;
     border-bottom: 1px dotted black;
+    font-size: 1.3rem;
 }
