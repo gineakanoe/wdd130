@@ -224,9 +224,8 @@ table {
 }
 
 .purpose {
-    display: flex;
-    justify-content: space-between;  
-    border-bottom: 1px dotted black; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
     margin-top: 10px;
 }
 
