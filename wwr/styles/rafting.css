@@ -2,7 +2,7 @@
 
 :root {
     --primary-color: #717ec3;
-    --secondary-color: #af2e6a;
+    --secondary-color: #ffffff;
     --accent1-color: #2f243a;
     --accent2-color: #037171;
 
@@ -10,7 +10,7 @@
     --paragraph-font: 'Poppins', 'sans serif';
 
     --nav-background-color: #717ec3;
-    --nav-link-color: #af2e6a;
+    --nav-link-color: #ffffff;
     --nav-hover-link-color: #2f243a;
     --nav-hover-background-color: #037171;  
 }
@@ -114,6 +114,10 @@ button:hover {
 
 footer a {
     text-decoration: none;
+}
+
+footer p {
+    color: var(--secondary-color);
 }
 
 table, td {
